@@ -1,31 +1,31 @@
-Mysql:\ 
-database name : react_blog\ 
-article table:\ 
-*type* table:\ 
-  +---------+---------------+---------+---------+---------+\ 
-  |Field    | Type          | Null    | Key     | Default |\ 
-  +---------+---------------+---------+---------+---------+\ 
-  |id       | int(11)       | NO      | PRI     | Null    |\ 
-  |typeName | varchar(255)  | NO      |         | Null    |\ 
-  |orderNum | int(11)       | NO      |         | Null    |\ 
-  +---------+---------------+---------+---------+---------+\ 
-*article* table:\ 
-  +----------------------+---------------+---------+---------+---------+-----------------+\ 
-  |Field                 | Type          | Null    | Key     | Default | Extra           |\ 
-  +----------------------+---------------+---------+---------+---------+-----------------+\ 
-  |id                    | int(11)       | NO      | PRI     | Null    |  auto_increment |\ 
-  |type_id               | int(11)       | NO      |         | Null    |                 |\ 
-  |title                 | varchar(255)  | NO      |         | Null    |                 |\ 
-  |article_content       | text          | NO      |         | Null    |                 |\ 
-  |introduction          | text          | YES     |         | Null    |                 |\ 
-  |add_time              | date          | YES     |         | Null    |                 |\ 
-  |view_count            | int(11)       | NO      |         | 0       |                 |\ 
-  +----------------------+---------------+---------+---------+---------+-----------------+\ 
-  *admin_user* table:\ 
-  +---------+---------------+---------+---------+---------+\ 
-  |Field    | Type          | Null    | Key     | Default |\ 
-  +---------+---------------+---------+---------+---------+\ 
-  |id       | int(11)       | NO      | PRI     | Null    |\ 
-  |UserName | varchar(255)  | YES     |         | Null    |\ 
-  |password | varchar(255)  | YES     |         | Null    |\ 
-  +---------+---------------+---------+---------+---------+\ 
+Mysql:<br />
+database name : react_blog<br />
+article table:<br />
+*type* table:<br />
+  +---------+---------------+---------+---------+---------+<br />
+  |Field    | Type          | Null    | Key     | Default |<br />
+  +---------+---------------+---------+---------+---------+<br />
+  |id       | int(11)       | NO      | PRI     | Null    |<br />
+  |typeName | varchar(255)  | NO      |         | Null    |<br />
+  |orderNum | int(11)       | NO      |         | Null    |<br />
+  +---------+---------------+---------+---------+---------+<br />
+*article* table:<br />
+  +----------------------+---------------+---------+---------+---------+-----------------+<br />
+  |Field                 | Type          | Null    | Key     | Default | Extra           |<br />
+  +----------------------+---------------+---------+---------+---------+-----------------+<br />
+  |id                    | int(11)       | NO      | PRI     | Null    |  auto_increment |<br />
+  |type_id               | int(11)       | NO      |         | Null    |                 |<br />
+  |title                 | varchar(255)  | NO      |         | Null    |                 |<br />
+  |article_content       | text          | NO      |         | Null    |                 |<br />
+  |introduction          | text          | YES     |         | Null    |                 |<br />
+  |add_time              | date          | YES     |         | Null    |                 |<br />
+  |view_count            | int(11)       | NO      |         | 0       |                 |<br />
+  +----------------------+---------------+---------+---------+---------+-----------------+<br />
+  *admin_user* table:<br />
+  +---------+---------------+---------+---------+---------+<br />
+  |Field    | Type          | Null    | Key     | Default |<br />
+  +---------+---------------+---------+---------+---------+<br />
+  |id       | int(11)       | NO      | PRI     | Null    |<br />
+  |UserName | varchar(255)  | YES     |         | Null    |<br />
+  |password | varchar(255)  | YES     |         | Null    |<br />
+  +---------+---------------+---------+---------+---------+<br /> 
