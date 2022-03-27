@@ -1,0 +1,16 @@
+.header {
+    background-color: #ffffff;
+    height: 2.9rem;
+    line-height: 2.9rem;
+}
+
+.header .header-logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #1890ff;
+}
+
+.header .header-text {
+    padding-left: 0.5rem;
+    font-size: 0.3rem;
+}

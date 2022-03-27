@@ -1,0 +1,27 @@
+{
+  "name": "blog_go",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@types/lodash": "^4.14.176",
+    "antd": "^4.16.13",
+    "axios": "^0.24.0",
+    "highlight.js": "^11.3.1",
+    "markdown-navbar": "^1.4.3",
+    "marked": "^4.0.3",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
